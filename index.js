@@ -5,7 +5,7 @@ function theBeatlesPlay (musicians, instruments) {
     let currMus = musicians[i]
     for (let j = 0; j < instruments.length; j++){
       let currInst = instruments[j]
-      
+      newArr.push(currMus + ' plays ' + currInst)
     }
   }
   return newArr 
