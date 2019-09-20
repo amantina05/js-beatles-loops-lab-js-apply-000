@@ -8,7 +8,14 @@ function theBeatlesPlay (musicians, instruments) {
   return newArr 
 }
 
-function 
+function johnLennonFacts (arr) {
+  let newArr
+    for(let i = 0; i < arr.length; i++){
+      let curr = arr[i]
+      newArr.push(curr + '!!!')
+    }
+  return newArr
+}
   describe('johnLennonFacts', function(){
     it("returns an array of strings with exclamation points", function() {
       expect(johnLennonFacts([
