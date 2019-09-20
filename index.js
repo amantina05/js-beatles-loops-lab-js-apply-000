@@ -19,7 +19,9 @@ function johnLennonFacts (arr) {
 
 function iLoveTheBeatles (num){
   let newArr = []
-    if(arr )
+    if(num === 7 ){
+      newArr.push('I love the Beatles!')
+    }
   return newArr
 }
   describe('iLoveTheBeatles', function() {
