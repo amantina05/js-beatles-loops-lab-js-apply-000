@@ -17,16 +17,16 @@ function johnLennonFacts (arr) {
   return newArr
 }
 
-function iLoveTheBeatles (num){
-  let newArr = []
-    if(num === 7 ){
-    let str = 'I love the Beatles!' 
-      newArr.push(str.repeat(8))
-    }if (num === 17){
-      return 'I love the Beatles!'
-    }
-  return newArr
-}
+// function iLoveTheBeatles (num){
+//   let newArr = []
+//     if(num === 7 ){
+//     let str = 'I love the Beatles!' 
+//       newArr.push(str.repeat(8))
+//     }if (num === 17){
+//       return 'I love the Beatles!'
+//     }
+//   return newArr
+// }
 //   describe('iLoveTheBeatles', function() {
 //     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
 //       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
