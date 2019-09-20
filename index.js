@@ -17,35 +17,13 @@ function johnLennonFacts (arr) {
   return newArr
 }
 
-// function iLoveTheBeatles (num){
-//   let newArr = []
-//     if(num === 7 ){
-//     let str = 'I love the Beatles!' 
-//       newArr.push(str.repeat(8))
-//     }if (num === 17){
-//       return 'I love the Beatles!'
-//     }
-//   return newArr
-// }
 function iLoveTheBeatles(number) { 
-  
-  let newArray = []; 
+  let newArray = []
   do {
-    newArray.push(`I love the Beatles!`);
-    number++; 
-  } while (number < 15); 
+    newArray.push(`I love the Beatles!`)
+    number++
+  } while (number < 15)
 
-  return newArray; // this needs to be outside the loop, otherwise only first item will be returned
-} //end of function
+  return newArray
+} 
 }
-//   describe('iLoveTheBeatles', function() {
-//     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
-//       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
-//     });
-
-//     it("returns an array of 'I love the Beatles!' once when passed the parameter 17", function() {
-//       expect(iLoveTheBeatles(17)).toEqual(["I love the Beatles!"]);
-//     });
-//   });
-
-// });
