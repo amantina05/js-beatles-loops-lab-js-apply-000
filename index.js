@@ -3,10 +3,8 @@ function theBeatlesPlay (musicians, instruments) {
   let newArr = []
   for (let i = 0; i < musicians.length; i++) {
     let currMus = musicians[i]
-    for (let j = 0; j < instruments.length; j++){
-      let currInst = instruments[j]
-      newArr.push(currMus + ' plays ' + currInst)
-    }
+      newArr.push(currMus + ' plays ' + instruments[i])
+    
   }
   return newArr 
 }
