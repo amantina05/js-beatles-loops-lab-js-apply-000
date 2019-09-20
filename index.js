@@ -1,7 +1,13 @@
 // add solution here
-function beatlesLoops (musicians, instruments) {
+function theBeatlesPlay (musicians, instruments) {
   let newArr = []
-  for (let i = 0; i < musicians.length; i++)
+  for (let i = 0; i < musicians.length; i++) {
+    let currMus = musicians[i]
+    for (let j = 0; j < instruments.length; j++){
+      let currInst = instruments[j]
+      
+    }
+  }
   return newArr 
 }
 
