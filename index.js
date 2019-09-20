@@ -27,17 +27,16 @@ function johnLennonFacts (arr) {
 //     }
 //   return newArr
 // }
-function iLoveTheBeatles (num){
-  let count = 0
-  let newArr = []
-  count ++
-    if(num === 7 ){
-    let str = 'I love the Beatles!' 
-      newArr.push(str.repeat(8))
-    }if (num === 17){
-      return 'I love the Beatles!'
-    }
-  return newArr
+function iLoveTheBeatles(number) { 
+  
+  let newArray = []; 
+  do {
+    newArray.push(`I love the Beatles!`); //this will happen one time, whether or not number meets condition below
+    number++; //increment number of times string above is pushed into newArray
+  } while (number < 15); //(that number subracted from 15 will be the output number of times the string is logged); 
+
+  return newArray; // this needs to be outside the loop, otherwise only first item will be returned
+} //end of function
 }
 //   describe('iLoveTheBeatles', function() {
 //     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
