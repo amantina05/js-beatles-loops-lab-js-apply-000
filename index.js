@@ -20,6 +20,7 @@ function johnLennonFacts (arr) {
 function iLoveTheBeatles (num){
   let newArr = []
     if(num === 7 ){
+      str = 'I love the Beatles!' 
       newArr.push('I love the Beatles!')
     }
   return newArr
